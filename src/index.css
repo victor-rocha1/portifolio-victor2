@@ -5,7 +5,10 @@
   font-weight: 400;
   --cinza: #343a40;
   --offwhite: #ECECEC;
+  --whitedark : #D0CEC9;
   --azul: #2067C7;
+  --darkblue: #03235E;
+  --grayblue: #4f5e64;
 }
 
 .interface{
