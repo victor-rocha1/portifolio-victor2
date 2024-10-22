@@ -1,4 +1,3 @@
-
 .about {
     display: flex;
     align-items: center; 
@@ -6,7 +5,9 @@
     padding: 60px;
     height: 100vh; 
     box-sizing: border-box;
-    background-color: var(--secondary-color);
+    background-image: url('/images/fundo.png'); 
+    background-size: cover; 
+    background-position: center;
 }
 
 .about2 {
@@ -15,14 +16,14 @@
     align-items: center; 
     justify-content: center; 
     gap: 80px; 
-    max-width: 1200px; /* Limita a largura máxima */
-    margin: 0 auto; /* Centraliza o conteúdo */
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
 
 .avatar img {
     width: 400px; 
-    border-radius: 50%; /* Torna a imagem do avatar circular */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao redor da imagem */
+    border-radius: 50%; 
+    box-shadow: 0 4px 8px var(--darkblue); 
 }
 
 .about-content {
@@ -63,6 +64,20 @@ p.desc {
 .description-list li {
     font-size: 1.2rem;
     margin-bottom: 5px;
+}
+
+.linkedin-icon {
+    border: 2px solid var(--darkblue); 
+    border-radius: 50%; 
+    padding: 10px; 
+    margin-left: 10px;
+    color: var(--darkblue); 
+    font-size: 2rem; 
+    transition: background-color 0.4s; 
+}
+
+.linkedin-icon:hover {
+    background-color: rgba(0, 0, 0, 0.1); 
 }
 
 @media (max-width: 768px) {
