@@ -11,3 +11,14 @@
     color: var(--azul);
     font-size: 55px;
 }
+
+@media (max-width: 768px) {
+    
+    .titleh {
+        font-size: 1.5rem;
+    }
+    .titles {
+        font-size: 1.3rem;
+    }
+
+}
