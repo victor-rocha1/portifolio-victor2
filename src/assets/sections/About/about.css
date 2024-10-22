@@ -1,0 +1,42 @@
+.about {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    padding: 60px;
+    height: 100vh; /* Ocupa toda a altura da tela */
+    box-sizing: border-box;
+    background-color: var(--offwhite);
+}
+
+.about2 {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 80px; 
+}
+
+.avatar img {
+    width: 400px; 
+}
+
+.titleh {
+    font-size: 28px;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .interface {
+        flex-direction: column; /* Empilha o conteúdo em telas menores */
+        gap: 20px;
+    }
+
+    .avatar img {
+        max-width: 130px; /* Ajusta a imagem para telas menores */
+    }
+
+    .titleh {
+        font-size: 28px; 
+        text-align: center;
+    }
+}

@@ -1,0 +1,13 @@
+.titleh {
+    font-size: 38px;
+    text-align: center;
+}
+
+.title-left {
+    text-align: left;
+}
+
+.titles {
+    color: var(--azul);
+    font-size: 38px;
+}

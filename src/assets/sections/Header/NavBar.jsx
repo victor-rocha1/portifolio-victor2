@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import logo from '../../../../public/images/logo.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './header.css';
+import './navbar.css';
 
 function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,7 +21,6 @@ function NavBar() {
           <img src={logo} alt="logo" />
         </a>
         <div className="nav-links">
-          <a href="#">Home</a>
           <a href="#">Sobre Mim</a>
           <a href="#">Skills</a>
           <a href="#">Experiências</a>
