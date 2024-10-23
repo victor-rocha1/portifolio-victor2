@@ -5,6 +5,7 @@ function Skills() {
     return (
         <section className="skills">
             <Title text="Minhas" spantext="Habilidades" />
+            <br />
             <div className="interface">
                 <div className="flex">
                     <div className="box">
