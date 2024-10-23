@@ -1,60 +1,57 @@
-/* Estilos gerais para telas grandes (desktop) */
 .about {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; 
+    justify-content: center; 
     padding: 60px;
-    height: 100vh;
+    height: 100vh; 
     box-sizing: border-box;
-    background-image: url('/images/fundo.png');
-    background-size: cover;
+    background-image: url('/images/fundo.png'); 
+    background-size: cover; 
     background-position: center;
 }
 
 .about2 {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 150px;
-    max-width: 1200px;
-    margin: 0 auto;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 80px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
 
 .avatar img {
-    width: 400px;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px var(--darkblue);
+    width: 400px; 
+    border-radius: 50%; 
+    box-shadow: 0 4px 8px var(--darkblue); 
 }
 
 .about-content {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
+    flex-direction: column; 
+    align-items: flex-start; 
 }
 
 .titleh {
-    font-size: 3rem;
+    font-size: 3rem; /* Aumenta o tamanho da fonte */
     font-weight: bold;
     color: var(--darkblue);
-    margin-bottom: 10px;
+    margin-bottom: 10px; /* Espaçamento inferior */
 }
 
 .rounded-border {
-    border-radius: 15px;
-    padding: 10px 15px;
-    background-color: var(--card-background);
+    border-radius: 15px; 
+    padding: 10px 15px; 
+    background-color: var(--card-background); 
     display: inline-block;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
 
 .description-list {
-    padding: 0;
-    margin: 0;
+    padding: 0; 
+    margin: 0; 
     font-size: 1rem;
     color: var(--text-color);
-    list-style-position: inside;
 }
 
 p.desc {
@@ -70,127 +67,31 @@ p.desc {
 }
 
 .linkedin-icon {
-    border: 2px solid var(--darkblue);
-    border-radius: 50%;
-    padding: 10px;
+    border: 2px solid var(--darkblue); 
+    border-radius: 50%; 
+    padding: 10px; 
     margin-left: 10px;
-    color: var(--darkblue);
-    font-size: 2rem;
-    transition: background-color 0.4s;
+    color: var(--darkblue); 
+    font-size: 2rem; 
+    transition: background-color 0.4s; 
 }
 
 .linkedin-icon:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1); 
 }
 
-/* Responsividade para telas grandes até 1440px */
-@media (max-width: 1440px) {
-    .about2 {
-        gap: 60px;
+@media (max-width: 768px) {
+    .interface {
+        flex-direction: column; 
+        gap: 20px;
     }
 
     .avatar img {
-        width: 350px;
+        max-width: 130px; 
     }
 
     .titleh {
-        font-size: 2.8rem;
-    }
-}
-
-/* Responsividade para telas médias até 1024px (tablets) */
-@media (max-width: 1024px) {
-    .about2 {
-        flex-direction: column;
-        gap: 40px;
-    }
-
-    .avatar img {
-        width: 250px;
-    }
-
-
-    .about-content {
-        align-items: center;
+        font-size: 1.8rem; /* Tamanho reduzido em telas menores */
         text-align: center;
-    }
-
-    .description-list li {
-        font-size: 1rem;
-    }
-
-    .rounded-border {
-        padding: 8px 12px;
-    }
-}
-
-/* Responsividade para telas pequenas até 768px (smartphones) */
-@media (max-width: 768px) {
-    .about {
-        padding: 20px;
-        height: auto;
-        text-align: center;
-    }
-
-    .about2 {
-        flex-direction: column; /* Coloca os elementos em coluna */
-        gap: 15px;
-        max-width: 100%;
-        padding: 10px;
-    }
-
-    .avatar img {
-        width: 200px; 
-    }
-
-
-    p.desc {
-        font-size: 1.5rem;
-    }
-
-    .description-list {
-        list-style-position: inside; /* Garante que as bolinhas da lista estejam próximas ao texto */
-        padding-left: 0;
-    }
-
-    .description-list li {
-        font-size: 1rem;
-        margin-bottom: 5px; /* Reduz o espaçamento entre os itens da lista */
-    }
-
-    .linkedin-icon {
-        font-size: 1.2rem;
-        padding: 5px;
-    }
-}
-
-/* Responsividade para telas muito pequenas até 480px */
-@media (max-width: 480px) {
-    .about {
-        padding: 20px;
-    }
-
-    .about2 {
-        gap: 15px;
-        padding: 10px;
-    }
-
-    .avatar img {
-        width: 180px;
-    }
-
-
-    p.desc {
-        font-size: 1rem;
-    }
-
-    .description-list li {
-        font-size: .9rem;
-        margin-bottom: 8px;
-    }
-
-    .linkedin-icon {
-        font-size: 1rem;
-        padding: 5px;
     }
 }

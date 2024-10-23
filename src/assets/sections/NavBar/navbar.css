@@ -24,11 +24,11 @@ header {
 }
 
 .navbar a {
-    margin: 0 50px; 
+    margin: 0 50px;
     text-decoration: none;
     color: var(--cinza);
     font-size: 1.3rem;
-    transition: color 0.3s ease, transform .3s ease; 
+    transition: color 0.3s ease, transform .3s ease;
 }
 
 .navbar a:hover {
@@ -55,7 +55,6 @@ header {
     margin: 5px auto;
 }
 
-/* Estilos para o menu lateral */
 .side-menu {
     position: fixed;
     top: 0;
@@ -99,6 +98,8 @@ header {
     color: #007bff;
 }
 
+/* Estilos responsivos */
+
 @media (max-width: 750px) {
     .nav-links {
         display: none;
@@ -107,10 +108,51 @@ header {
     .menu {
         display: block;
     }
+
+    .navbar {
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .navbar img {
+        margin-left: 0;
+    }
+
+    .menu {
+        margin-left: auto;
+    }
 }
 
-@media (min-width: 751px) {
+@media (min-width: 751px) and (max-width: 1024px) {
+    .navbar {
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .navbar img {
+        width: 60px;
+        margin-right: 10px;
+    }
+
+    .nav-links {
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 1025px) {
     .menu {
         display: none;
+    }
+}
+
+@media (max-width: 844px) {
+    .nav-links {
+        display: none;
+    }
+
+    .menu {
+        display: block;
     }
 }
