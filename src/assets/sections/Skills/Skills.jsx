@@ -9,7 +9,7 @@ function Skills() {
             <div className="interface">
                 <div className="flex">
                     <div className="box">
-                        <i className="bi bi-code-square"></i>
+                        <i className="bi bi-laptop"></i>
                         <h2>FRONT END</h2>
                         <p>
                             Desenvolvo aplicações usando <span>JavaScript</span> como base, <span>HTML5</span> e <span>CSS3</span> para marcação, e a Biblioteca <span>React </span> para uma programação mais organizada e eficiente..
@@ -17,7 +17,7 @@ function Skills() {
                     </div>
 
                     <div className="box">
-                        <i className="bi bi-laptop"></i>
+                        <i className="bi bi-code-square"></i>
                         <h2>BACK END</h2>
                         <p>
                             Possuo experiência acadêmica em <span>Python</span>, com foco na resolução de exercícios e problemas básicos. Além disso, tenho experiência profissional com <span>PHP</span>, utilizando o framework <span>Laravel</span> em projetos na <span>Prodemge</span>.
