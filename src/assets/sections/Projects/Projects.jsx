@@ -7,6 +7,7 @@ import imgValidador from "./images/validador.png";
 import imgCalculadoraPy from "./images/calculadorapy.png";
 import imgOneBitFlix from "./images/onebitflix.png"
 import imgJogodeDamas from "./images/jogo-de-dama.png"
+import './projects.css'
 
 
 function Projects() {
