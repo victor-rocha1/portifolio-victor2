@@ -23,6 +23,7 @@ function NavBar() {
         <div className="nav-links">
           <a href="#">Sobre Mim</a>
           <a href="#">Skills</a>
+          <a href="#">Projetos</a>
           <a href="#">Experiências</a>
         </div>
         <button className='menu' onClick={toggleMenu}></button>
@@ -32,6 +33,7 @@ function NavBar() {
         <a href="#">Home</a>
         <a href="#">Sobre Mim</a>
         <a href="#">Skills</a>
+        <a href="#">Projetos</a>
         <a href="#">Experiências</a>
       </div>
     </header>
