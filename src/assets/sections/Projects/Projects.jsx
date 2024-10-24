@@ -12,8 +12,8 @@ import imgJogodeDamas from "./images/jogo-de-dama.png"
 function Projects() {
     return (
         <section className="projects" id='projects'>
+            <Title text="MEUS " spantext="PROJETOS" />
             <div className="interface">
-                <Title text="MEUS " spantext="PROJETOS" />
                 <div className="flex">
                     <ImgProject
                         img={imgSpace}
@@ -21,7 +21,7 @@ function Projects() {
                         github='https://github.com/victor-rocha1/SpaceX-Bootstrap'
                         button={true}
                     />
-                    
+
                     <ImgProject
                         img={imgJogodeDamas}
                         text="Jogo de Damas - Projeto Acadêmico"

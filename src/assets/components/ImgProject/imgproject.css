@@ -1,7 +1,7 @@
 .projects {
     padding: 80px 4%;
     padding-bottom: 80px;
-    box-shadow: 0 0 20px 6px var(--shadownwhite);
+    box-shadow: 0 10 30px 6px var(--shadownwhite);
 }
 
 .projects .flex {
@@ -13,7 +13,7 @@
     margin-top: 60px;
     width: 360px;
     height: 460px;
-    background-color: var(--blue);
+    background-color: var(--azul);
     background-size: cover;
     background-position: 100% 0%;
     border-radius: 40px;
@@ -22,7 +22,7 @@
 
 .img-project:hover {
     background-position: 100% 100%;
-    box-shadow: 0 0 20px var(--blue);
+    box-shadow: 0 0 40px var(--azul);
     transition: background-position 8s, box-shadow 0.4s;/
 }
 
@@ -44,6 +44,7 @@
 }
 
 .overlay p {
+    color: var(--white);
     text-align: center;
     padding-bottom: 20px;
 }
@@ -73,7 +74,7 @@
         margin-top: 60px;
         width: 330px;
         height: 430px;
-        background-color: var(--blue);
+        background-color: var(--azul);
 
     }
 }
