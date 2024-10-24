@@ -1,7 +1,7 @@
 .projects {
     padding: 80px 4%;
     padding-bottom: 80px;
-    box-shadow: 0 10 30px 6px var(--shadownwhite);
+    box-shadow: 0 10 30px 6px var(--cinza);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -60,10 +60,10 @@
 }
 
 .overlay button {
-    text-decoration: none;
-    background: none;
-    border: none;
-    cursor: pointer;
+    text-decoration: none; 
+    background: none; 
+    border: none; 
+    cursor: pointer; 
 }
 
 .overlay button i {
