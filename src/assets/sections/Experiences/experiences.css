@@ -51,13 +51,72 @@
 
 .text-content span {
     color: var(--azul);
+    font-weight: bold;
 }
+
+.span1, .span2{
+    font-size: .95rem;
+    font-weight: bold;
+}
+
 
 small, h5 {
     color: var(--darkblue);
+    font-weight: bold;
 }
 
-.card-content div {
+.card-content {
     flex: 1;
     text-align: left; 
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .card-content img {
+        display: none;
+    }
+
+    /* Ajustar a largura e o estilo do conteúdo de texto */
+    .text-content {
+        font-size: 1rem; /* Diminuir o tamanho da fonte */
+        padding: 10px;
+        min-width: auto; /* Remover a largura mínima para ajustar ao tamanho da tela */
+    }
+
+    /* Ajustar o tamanho do texto das tags small e h5 */
+    .text-content small, .text-content h5 {
+        font-size: 0.9rem;
+    }
+
+    /* Centralizar o card em telas menores */
+    .card {
+        margin: 10px;
+        padding: 15px;
+    }
+}
+
+
+@media (max-width: 900px) {
+
+    .text-content {
+        font-size: 1rem; 
+        padding: 10px;
+        min-width: auto; 
+    }
+
+    .text-content small, .text-content h5 {
+        font-size: 0.9rem;
+    }
+
+    /* Centralizar o card em telas menores */
+    .card {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .card-content img {
+        width: 300px; 
+        height: auto;
+        margin-right: 20px; 
+    }
 }
