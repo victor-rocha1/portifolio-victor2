@@ -1,0 +1,43 @@
+footer {
+    background-color: var(--white);
+    padding: 15px 4%; 
+    max-height: 190px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.logo-footer {
+    display: flex; 
+    align-items: center; 
+}
+
+#logotipo {
+    max-width: 70px; 
+    height: auto; 
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px; 
+}
+
+.footer-line {
+    height: 2px; 
+    background-color:var(--azul);
+    margin: 10px 5px; 
+}
+
+p i{
+    font-size: 2rem;
+    color: var(--azul);
+    padding-right: 10px;
+}
+
+.contact-info a{
+    color: var(--black);
+    text-decoration: none;
+}

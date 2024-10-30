@@ -7,23 +7,23 @@
 }
 
 .icon-social a {
-    display: flex; /* Flexbox para centralização */
+    display: flex; 
     justify-content: center; 
     align-items: center; 
-    width: 60px;  
-    height: 60px;
+    width: 55px;  
+    height: 55px;
     background-color: var(--whitedark); 
     border-radius: 50%; 
     transition: transform .2s ease; 
 }
 
 .icon-social a .icon {
-    color: var(--blue); 
+    color: var(--azul); 
     font-size: 2rem; 
 }
 
 .icon-social a:hover {
-    transform: scale(0.8); /* Efeito de hover */
+    transform: scale(0.9); 
 }
 
 @media(max-width: 510px) {
