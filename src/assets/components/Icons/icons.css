@@ -1,34 +1,61 @@
 .icon-social {
     display: flex;
-    justify-content: flex-end; 
-    align-items: center; 
-    gap: 30px; 
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
     cursor: pointer;
 }
 
 .icon-social a {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    width: 55px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
     height: 55px;
-    background-color: var(--whitedark); 
-    border-radius: 50%; 
-    transition: transform .2s ease; 
+    background-color: var(--whitedark);
+    border-radius: 50%;
+    transition: transform .2s ease;
 }
 
 .icon-social a .icon {
-    color: var(--azul); 
-    font-size: 2rem; 
+    color: var(--azul);
+    font-size: 2rem;
 }
 
 .icon-social a:hover {
-    transform: scale(0.9); 
+    transform: scale(0.9);
 }
 
-@media(max-width: 510px) {
-    .icon-social a {
-        width: 55px; 
-        height: 55px;
+/* Responsividade */
+@media (max-width: 768px) {
+    .icon-social {
+        gap: 20px; 
     }
+
+    .icon-social a {
+        width: 45px;
+        height: 45px; 
+    }
+
+    .icon-social a .icon {
+        font-size: 1.5rem; 
+    }
+
+    .contact-info{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 530px) {
+    .icon-social {
+        justify-content: center; 
+        flex-wrap: wrap;
+    }
+
+    .icon-social a {
+        width: 55px;
+        height: 55px; 
+    }
+
 }
