@@ -21,20 +21,20 @@ function NavBar() {
           <img src={logo} alt="logo" />
         </a>
         <div className="nav-links">
-          <a href="#">Sobre Mim</a>
-          <a href="#">Skills</a>
-          <a href="#">Projetos</a>
-          <a href="#">Experiências</a>
+          <a href="#about">Sobre Mim</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projetos</a>
+          <a href="#experiences">Experiências</a>
         </div>
         <button className='menu' onClick={toggleMenu}></button>
       </nav>
       <div className={`side-menu ${isMenuOpen ? 'open' : ''}`}>
         <button className="close-menu" onClick={closeMenu}>X</button> {/* Botão para fechar */}
         <a href="#">Home</a>
-        <a href="#">Sobre Mim</a>
-        <a href="#">Skills</a>
-        <a href="#">Projetos</a>
-        <a href="#">Experiências</a>
+        <a href="#about">Sobre Mim</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projetos</a>
+        <a href="#experiences">Experiências</a>
       </div>
     </header>
   );

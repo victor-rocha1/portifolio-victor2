@@ -10,7 +10,7 @@ function About() {
     ];
 
     return (
-        <section className='about'>
+        <section className='about' id='about'>
             <div className="interface">
                 <div className="about2">
                     <div className="avatar">

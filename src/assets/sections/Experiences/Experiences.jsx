@@ -5,7 +5,7 @@ import logo_prodemge from "../../../../public/images/logo_prodemge.png"
 function Experiences() {
     return (
         <>
-            <section className="experiências">
+            <section className="experiências" id='experiences'>
                 <br /><br /><Title text="MINHA " spantext="EXPERIÊNCIA" /> <br />
                 <div className="interface">
                     <div className="timeline">

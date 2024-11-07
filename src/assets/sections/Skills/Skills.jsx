@@ -13,7 +13,7 @@ import laravel from "../../../../public/images/laravel.png";
 
 function Skills() {
     return (
-        <section className="skills">
+        <section className="skills" id="skills">
             <Title text="Minhas" spantext="Habilidades" />
             <br />
             <div className="interface">

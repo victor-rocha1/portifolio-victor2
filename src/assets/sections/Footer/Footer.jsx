@@ -10,7 +10,7 @@ function Footer() {
     const contactIcon = { name: 'envelope-fill', link: 'mailto:victorrocha3202@gmail.com' };
 
     return (
-        <footer>
+        <footer id='footer'>
             <div className="footer-container">
                 <div className="logo-footer">
                     <img id='logotipo' src={logo} alt="Logo Victor Rocha" />
