@@ -1,5 +1,6 @@
 import Title from '../../components/Title/Title';
 import './experiences.css';
+import logo_prodemge from "../../../../public/images/logo_prodemge.png"
 
 function Experiences() {
     return (
@@ -9,7 +10,7 @@ function Experiences() {
                 <div className="interface">
                     <div className="timeline">
                         <div className="card-content">
-                            <img src="/images/logo_prodemge.png" alt="logo_prodemge" />
+                            <img src={logo_prodemge} alt="logo_prodemge" />
                             <div className="text-content">
                                 <small className='span1'>2024 - <span className='span2'>atual</span></small>
                                 <h5>Estagiário - <span>Prodemge</span></h5>

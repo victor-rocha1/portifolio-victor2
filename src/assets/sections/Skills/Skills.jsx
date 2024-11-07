@@ -1,5 +1,15 @@
 import Title from "../../components/Title/Title";
 import "./skills.css";
+import git from "../../../../public/images/git.png";
+import github from "../../../../public/images/github.png";
+import js from "../../../../public/images/js.png";
+import html from "../../../../public/images/html.png";
+import css from "../../../../public/images/css.png";
+import python from "../../../../public/images/python.png";
+import postgres from "../../../../public/images/postgres.png";
+import sql from "../../../../public/images/sql.png";
+import php from "../../../../public/images/php.png";
+import laravel from "../../../../public/images/laravel.png";
 
 function Skills() {
     return (
@@ -35,16 +45,18 @@ function Skills() {
             </div>
 
             <div className="icons">
-                <img src="/images/git.png" alt="logo-git" />
-                <img src="/images/github.png" alt="logo-github" />
-                <img src="/images/js.png" alt="logo-js" />
-                <img src="/images/html.png" alt="logo-html" />
-                <img src="/images/css.png" alt="logo-css" />
-                <img src="/images/python.png" alt="logo-python" />
-                <img src="/images/postgres.png" alt="logo-postgres" />
-                <img src="/images/sql.png" alt="logo-sql" />
-                <img src="/images/php.png" alt="logo-php" />
-                <img src="/images/laravel.png" alt="logo-laravel" />
+                <div className="icons">
+                    <img src={git} />
+                    <img src={github} alt="logo-github" />
+                    <img src={js} alt="logo-js" />
+                    <img src={html} alt="logo-html" />
+                    <img src={css} alt="logo-css" />
+                    <img src={python} alt="logo-python" />
+                    <img src={postgres} alt="logo-postgres" />
+                    <img src={sql} alt="logo-sql" />
+                    <img src={php} alt="logo-php" />
+                    <img src={laravel} alt="logo-laravel" />
+                </div>
             </div>
         </section>
     );
