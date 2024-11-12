@@ -18,7 +18,7 @@
     border-radius: 40px;
     position: relative;
     transition: box-shadow 0.4s ease, background-position 8s;
-    overflow: hidden; /* Garante que o efeito de escurecimento não saia da borda */
+    overflow: hidden; 
 }
 
 .img-project::after {
@@ -58,11 +58,11 @@
     font-weight: 700;
     opacity: 0;
     transition: opacity 0.5s ease;
-    z-index: 2; /* Garante que o texto fique acima da camada de escurecimento */
+    z-index: 2; 
 }
 
 .overlay p {
-    color: var(--white);
+    color: var(--whitedark);
     text-align: center;
     padding-bottom: 20px;
 }

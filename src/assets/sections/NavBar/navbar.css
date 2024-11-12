@@ -1,10 +1,11 @@
 header {
-    background-color: var(--offwhite);
+    background-color: var(--offwhite);;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navbar {
+    color: var(--whitedark);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,7 +27,7 @@ header {
 .navbar a {
     margin: 0 50px;
     text-decoration: none;
-    color: var(--cinza);
+    color: var(--whitedarktext);
     font-size: 1.3rem;
     transition: color 0.3s ease, transform 0.3s ease;
 }

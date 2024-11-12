@@ -1,6 +1,8 @@
 .skills {
     padding: 60px 6%;
     text-align: center;
+    background-color: var(--white);
+    color: var(--whitedarktext);
 }
 
 .interface {

@@ -2,6 +2,7 @@ footer {
     background-color: var(--white);
     padding: 15px 4%;
     max-height: 190px;
+    color: var(--whitedarktext);
 }
 
 .footer-container {

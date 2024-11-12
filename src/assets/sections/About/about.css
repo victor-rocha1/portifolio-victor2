@@ -33,10 +33,10 @@
 }
 
 .titleh {
-    font-size: 3rem; /* Aumenta o tamanho da fonte */
+    font-size: 3rem;
     font-weight: bold;
     color: var(--darkblue);
-    margin-bottom: 10px; /* Espaçamento inferior */
+    margin-bottom: 10px;
 }
 
 .rounded-border {
@@ -44,14 +44,14 @@
     padding: 10px 15px; 
     background-color: var(--card-background); 
     display: inline-block;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .description-list {
     padding: 0; 
     margin: 0; 
     font-size: 1rem;
-    color: var(--text-color);
+    color: var(--whitedarktext);
 }
 
 p.desc {

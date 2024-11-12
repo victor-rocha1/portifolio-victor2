@@ -1,6 +1,7 @@
 .experiências {
     text-align: center;
     padding: 0 20px; 
+    background-color: var(--white);
 }
 
 .timeline {
@@ -37,6 +38,7 @@
 }
 
 .text-content {
+    color: var(--whitedarktext);
     background-color: var(--offwhite);
     border-radius: 20px;
     display: flex;

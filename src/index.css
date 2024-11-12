@@ -11,8 +11,21 @@ html {
   --white: #fff;
   --offwhite: #ECECEC;
   --whitedark: #D0CEC9;
+  --whitedarktext: #000;
   --azul: #2067C7;
   --darkblue: #03235E;
+  --grayblue: #4f5e64;
+  --dark: #000;
+}
+
+body.dark{
+  --cinza: #343a40;
+  --white: #000;
+  --offwhite: #12171b;
+  --whitedark: #D0CEC9;
+  --whitedarktext: #D0CEC9;
+  --azul: #2067C7;
+  --darkblue: #D0CEC9;
   --grayblue: #4f5e64;
   --dark: #000;
 }
