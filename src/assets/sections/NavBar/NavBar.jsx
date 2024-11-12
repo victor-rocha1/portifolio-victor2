@@ -26,7 +26,7 @@ function NavBar() {
           <a href="#skills">Skills</a>
           <a href="#projects">Projetos</a>
           <a href="#experiences">Experiências</a>
-          <DarkMode/>
+          <DarkMode />
         </div>
         <button className='menu' onClick={toggleMenu}></button>
       </nav>

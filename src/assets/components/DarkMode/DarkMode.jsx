@@ -1,14 +1,16 @@
-function DarkMode(){
-    return(
-        <input type="checkbox" name="darkmode" id="darkmode" />,
+import './darkmode.css'
 
-        <label className='label' for="darkmode">
-            <i class="fas fa-moon"></i>
-            <i class="fas fa-sun"></i>
-            <div className="ball"></div>
-        </label>
-    )
-
+function DarkMode() {
+    return (
+        <>
+            <input type="checkbox" name="darkmode" id="darkmode" className="checkbox" />
+            <label className='label' htmlFor="darkmode">
+                <i className="fas fa-moon"></i>
+                <i className="fas fa-sun"></i>
+                <div className="ball"></div>
+            </label>
+        </>
+    );
 }
 
 export default DarkMode;
