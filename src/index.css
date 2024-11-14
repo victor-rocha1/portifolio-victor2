@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: smooth; /* Ativa a rolagem suave */
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -7,6 +7,8 @@ html {
   font-size: 18px;
   line-height: 1.5;
   font-weight: 400;
+
+  /* Modo Normal */
   --cinza: #343a40;
   --white: #fff;
   --offwhite: #ECECEC;
@@ -18,20 +20,8 @@ html {
   --dark: #000;
 }
 
-body.dark{
-  --cinza: #343a40;
-  --white: #000;
-  --offwhite: #12171b;
-  --whitedark: #D0CEC9;
-  --whitedarktext: #D0CEC9;
-  --azul: #2067C7;
-  --darkblue: #D0CEC9;
-  --grayblue: #4f5e64;
-  --dark: #000;
-}
-
-body.dark .background-image {
-  display: none;
+.about .dark {
+  background-image: none;
 }
 
 .interface {

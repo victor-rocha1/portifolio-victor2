@@ -12,7 +12,7 @@
     align-items: center;
     width: 55px;
     height: 55px;
-    background-color: var(--whitedark);
+    background-color: var(--offwhite);
     border-radius: 50%;
     transition: transform .2s ease;
 }

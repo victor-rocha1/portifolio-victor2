@@ -23,7 +23,7 @@
 .avatar img {
     width: 400px; 
     border-radius: 50%; 
-    box-shadow: 0 4px 8px var(--darkblue); 
+    box-shadow: 0 0 5px var(--azul); 
 }
 
 .about-content {
