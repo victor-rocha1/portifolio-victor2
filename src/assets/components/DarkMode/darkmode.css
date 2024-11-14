@@ -1,6 +1,7 @@
 /* Cores Modo Dark */
 body.dark {
-    --cinza: #343a40;
+    --cinza: #D0CEC9;
+    --cinza2: #D0CEC9;
     --white: #000;
     --offwhite: #12171b;
     --whitedark: #D0CEC9;
@@ -20,6 +21,18 @@ body.dark .about {
     background-color: var(--white);
 }
 
+body.dark .side-menu {
+    background-color: var(--offwhite); 
+    color: var(--whitedarktext); 
+}
+
+body.dark .side-menu .label .ball {
+    background-color: var(--white);
+}
+
+body.dark .side-menu .checkbox:checked + .label .ball {
+    transform: translateX(24px);
+}
 
 .checkbox {
     opacity: 0;
