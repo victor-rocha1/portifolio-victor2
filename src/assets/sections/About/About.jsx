@@ -1,5 +1,5 @@
 import './about.css';
-import avatar from '../../../../public/images/logo.png';
+import avatar from '../../../../public/images/avatar.jpg';
 import Title from '../../components/Title/Title';
 import Icons from '../../components/Icons/Icons';
 
