@@ -27,7 +27,7 @@ header {
 .navbar a {
     margin: 0 50px;
     text-decoration: none;
-    color: var(--whitedarktext);
+    color: var(--offwhite);
     font-size: 1.3rem;
     transition: color 0.3s ease, transform 0.3s ease;
 }
@@ -91,7 +91,7 @@ header {
     display: block;
     margin: 15px 0;
     text-decoration: none;
-    color: var(--cinza);
+    color: var(--whitedark);
     font-size: 1.5rem;
     transition: color 0.3s ease;
 }

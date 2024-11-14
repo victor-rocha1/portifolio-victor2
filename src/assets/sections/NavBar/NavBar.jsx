@@ -32,6 +32,7 @@ function NavBar() {
       </nav>
       <div className={`side-menu ${isMenuOpen ? 'open' : ''}`}>
         <button className="close-menu" onClick={closeMenu}>X</button> {/* Botão para fechar */}
+        <DarkMode />
         <a href="#">Home</a>
         <a href="#about">Sobre Mim</a>
         <a href="#skills">Skills</a>
