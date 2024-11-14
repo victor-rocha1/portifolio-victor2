@@ -6,6 +6,7 @@ import NavBar from './assets/sections/NavBar/NavBar';
 import Projects from './assets/sections/Projects/Projects';
 import Skills from './assets/sections/Skills/Skills';
 
+
 function App() {
   return (
     <>
