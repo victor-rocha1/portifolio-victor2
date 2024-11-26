@@ -11,8 +11,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 55px;
-    height: 55px;
+    width: 55px; 
+    height: 55px; 
     background-color: var(--offwhite);
     border-radius: 50%;
     transition: transform 0.2s ease, background-color 0.3s ease; 
@@ -20,7 +20,7 @@
 
 .icon-social a .icon {
     color: var(--azul);
-    font-size: 2rem;
+    font-size: 2rem; 
 }
 
 .icon-social a:hover {
@@ -36,7 +36,7 @@
     }
 
     .icon-social a {
-        width: 50px;
+        width: 50px; 
         height: 50px; 
     }
 
@@ -52,11 +52,11 @@
     }
 
     .icon-social a {
-        width: 45px;
-        height: 45px; 
+        width: 53px; 
+        height: 53px; 
     }
 
     .icon-social a .icon {
-        font-size: 1.3rem; 
+        font-size: 1rem; 
     }
 }

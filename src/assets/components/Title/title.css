@@ -14,11 +14,11 @@
 
 @media (max-width: 600px) {
     .titleh {
-        font-size: 1.45rem !important;
+        font-size: 1.55rem !important;
     }
 
     .titles {
         color: var(--azul);
-        font-size: 1.45rem !important;
+        font-size: 1.55rem !important;
     }
 }
