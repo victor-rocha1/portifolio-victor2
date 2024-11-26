@@ -107,10 +107,16 @@ p.desc {
     }
 
     p.desc {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         color: var(--darkblue);
         font-weight: bold;
         margin-bottom: 20px;
+    }
+
+    .description-list li {
+        font-size: 1.1rem;
+        margin-bottom: 1px;
+        text-align: left;
     }
 
 }
