@@ -1,40 +1,43 @@
 .experiências {
     text-align: center;
-    padding: 0 20px; 
+    padding: 0 20px;
     background-color: var(--white);
 }
 
 .timeline {
-    max-width: 1000px; 
+    max-width: 1000px;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     padding: 20px;
     margin: 0 auto;
 }
 
 .card {
-    max-width: 1200px; 
-    margin: 20px auto; 
-    padding: 20px; 
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
-    border-radius: 8px; 
-    display: flex; 
-    justify-content: center; 
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .card-content {
     display: flex;
-    justify-content: flex-start; 
-    align-items: center; 
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
     width: 100%;
+    gap: 20px;
 }
 
 .card-content img {
-    width: 400px; 
+    width: 300px;
     height: auto;
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 
 .text-content {
@@ -42,13 +45,12 @@
     background-color: var(--offwhite);
     border-radius: 20px;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     text-align: left;
     font-size: 1.25rem;
-    flex: 1; 
+    flex: 1;
     padding: 20px;
-    min-width: 800px;
-    height: auto;
+    width: 1000px;
 }
 
 .text-content span {
@@ -56,54 +58,42 @@
     font-weight: bold;
 }
 
-.span1, .span2{
+.span1, .span2 {
     font-size: .95rem;
     font-weight: bold;
 }
-
 
 small, h5 {
     color: var(--darkblue);
     font-weight: bold;
 }
 
-.card-content {
-    flex: 1;
-    text-align: left; 
-}
-
-/* Responsividade */
 @media (max-width: 768px) {
     .card-content img {
         display: none;
     }
 
-    /* Ajustar a largura e o estilo do conteúdo de texto */
     .text-content {
-        font-size: 1rem; 
+        font-size: 1rem;
         padding: 10px;
-        min-width: auto; 
+        width: 100%;
     }
 
-    
     .text-content small, .text-content h5 {
         font-size: 0.9rem;
     }
 
-    
     .card {
         margin: 10px;
         padding: 15px;
     }
 }
 
-
 @media (max-width: 900px) {
-
     .text-content {
-        font-size: 1rem; 
+        font-size: 1rem;
         padding: 10px;
-        min-width: auto; 
+        width: 100%;
     }
 
     .text-content small, .text-content h5 {
@@ -116,8 +106,8 @@ small, h5 {
     }
 
     .card-content img {
-        width: 300px; 
+        width: 300px;
         height: auto;
-        margin-right: 20px; 
+        margin-right: 20px;
     }
 }
