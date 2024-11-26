@@ -1,4 +1,11 @@
-.projects{
+.projects {
     background-color: var(--offwhite);
     color: var(--whitedarktext);
+}
+
+.interface {
+    width: 100%;           
+    max-width: 1200px; 
+    margin: 0 auto;       
+    display: block;            
 }

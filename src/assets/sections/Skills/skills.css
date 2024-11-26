@@ -1,5 +1,5 @@
 .skills {
-    padding: 60px 6%;
+    padding: 60px 10%;
     text-align: center;
     background-color: var(--white);
     color: var(--whitedarktext);
@@ -8,33 +8,32 @@
 .interface {
     display: flex;
     justify-content: center;
-    align-items: center; /* Alinha verticalmente os .box */
+    align-items: center; 
     width: 100%;
 }
 
 .flex {
     display: flex;
-    justify-content: center; /* Centraliza os .box horizontalmente */
-    align-items: center; /* Centraliza os .box verticalmente */
-    gap: 30px; /* Espaço entre os .box */
-    flex-wrap: wrap; /* Permite que os .box se ajustem em telas menores */
+    justify-content: space-around; 
+    align-items: center; 
+    gap: 30px; 
+    flex-wrap: wrap; 
     max-width: 1200px;
     width: 100%;
-    height: 100%; /* Garante que a altura do container envolva os elementos */
 }
 
 .box {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centraliza os conteúdos internos */
-    justify-content: center; /* Centraliza verticalmente os conteúdos internos */
+    align-items: center; 
+    justify-content: center; 
     text-align: center;
-    width: 100%; /* Garante que o .box se ajuste ao container */
-    max-width: 380px; /* Define uma largura máxima para manter proporção */
+    width: 100%; 
+    max-width: 380px;
     padding: 30px;
     border-radius: 20px;
     transition: transform 0.2s ease-in-out;
-    background-color: var(--light-gray);
+    margin: 0 auto; 
 }
 
 .box:hover {
@@ -93,9 +92,6 @@
         align-items: center;
     }
 
-    .box {
-        width: 80%;
-    }
 
     .box i {
         font-size: 2.5rem;
@@ -125,7 +121,7 @@
         font-size: 2rem;
     }
 
-    .box h2{
+    .box h2 {
         font-size: 1.3rem;
     }
 }
