@@ -13,7 +13,7 @@ header {
 
 .navbar img {
     width: 70px;
-    margin-left: 20px;
+    margin-left: -10px; 
 }
 
 .nav-links {
@@ -21,6 +21,7 @@ header {
     align-items: center;
     flex-grow: 1;
     justify-content: center;
+    margin: 0 20px; /* Ajuste de espaçamento entre logo e links */
 }
 
 .navbar a {
@@ -36,18 +37,18 @@ header {
     transform: scale(1.1);
 }
 
-/* Preenchimento dos botões */
-.theme-toggle,
-.menu {
-    margin: 0 20px; 
-    padding: 20px;  
+/* Botão de Dark Mode */
+.theme-toggle-wrapper {
+    position: absolute;
+    top: 20px;
+    right: 15px; /* Ajuste do botão Dark Mode no canto */
 }
 
 .theme-toggle {
-    margin-right: 20px;
+    margin: 0;
 }
 
-/* Botão do menu */
+/* Botão do menu lateral */
 .menu {
     display: none;
     border: none;
@@ -79,6 +80,7 @@ header {
     background-color: var(--offwhite);
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
     transition: right 0.3s ease;
+    padding-right: 5px !important; /* Especificação extra */
     padding: 20px;
     z-index: 1000;
 }
@@ -120,16 +122,16 @@ header {
         display: none;
     }
 
-    .menu {
-        display: block;
+    .theme-toggle-wrapper {
+        display: none; /* Esconde o botão Dark Mode */
     }
 
-    .theme-toggle {
-        display: none; 
+    .menu {
+        display: block; /* Mostra o botão de menu */
     }
 
     .side-menu {
-        width: 50%; 
+        width: 50%;
     }
 }
 

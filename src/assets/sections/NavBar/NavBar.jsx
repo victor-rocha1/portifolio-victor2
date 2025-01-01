@@ -21,18 +21,21 @@ function NavBar() {
         <a href="#">
           <img src={logo} alt="logo" />
         </a>
+
         <div className="nav-links">
           <a href="#about">Sobre Mim</a>
           <a href="#skills">Skills</a>
           <a href="#projects">Projetos</a>
           <a href="#experiences">Experiências</a>
-          <DarkMode className="theme-toggle" />
+        </div>
+
+        <div className="theme-toggle-wrapper">
+          <DarkMode />
         </div>
         <button className="menu" onClick={toggleMenu}></button>
       </nav>
       <div className={`side-menu ${isMenuOpen ? 'open' : ''}`}>
         <button className="close-menu" onClick={closeMenu}>X</button>
-        <DarkMode />
         <a href="#">Home</a>
         <a href="#about">Sobre Mim</a>
         <a href="#skills">Skills</a>
