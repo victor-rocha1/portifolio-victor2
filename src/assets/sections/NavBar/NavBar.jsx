@@ -26,12 +26,12 @@ function NavBar() {
           <a href="#skills">Skills</a>
           <a href="#projects">Projetos</a>
           <a href="#experiences">Experiências</a>
-          <DarkMode />
+          <DarkMode className="theme-toggle" />
         </div>
-        <button className='menu' onClick={toggleMenu}></button>
+        <button className="menu" onClick={toggleMenu}></button>
       </nav>
       <div className={`side-menu ${isMenuOpen ? 'open' : ''}`}>
-        <button className="close-menu" onClick={closeMenu}>X</button> {/* Botão para fechar */}
+        <button className="close-menu" onClick={closeMenu}>X</button>
         <DarkMode />
         <a href="#">Home</a>
         <a href="#about">Sobre Mim</a>
