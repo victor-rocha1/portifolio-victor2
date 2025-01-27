@@ -34,8 +34,14 @@ function NavBar() {
         </div>
         <button className="menu" onClick={toggleMenu}></button>
       </nav>
+
       <div className={`side-menu ${isMenuOpen ? 'open' : ''}`}>
-        <button className="close-menu" onClick={closeMenu}>X</button>
+        <div className="side-menu-header">
+          <button className="close-menu" onClick={closeMenu}>X</button>
+          <div className="dark-mode-button">
+            <DarkMode />
+          </div>
+        </div>
         <a href="#">Home</a>
         <a href="#about">Sobre Mim</a>
         <a href="#skills">Skills</a>

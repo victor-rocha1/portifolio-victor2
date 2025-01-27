@@ -1,9 +1,11 @@
+/* Header geral */
 header {
     background-color: var(--white);
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Navegação superior */
 .navbar {
     display: flex;
     align-items: center;
@@ -13,7 +15,7 @@ header {
 
 .navbar img {
     width: 70px;
-    margin-left: -10px; 
+    margin-left: -10px;
 }
 
 .nav-links {
@@ -21,7 +23,7 @@ header {
     align-items: center;
     flex-grow: 1;
     justify-content: center;
-    margin: 0 20px; /* Ajuste de espaçamento entre logo e links */
+    margin: 0 20px;
 }
 
 .navbar a {
@@ -37,18 +39,14 @@ header {
     transform: scale(1.1);
 }
 
-/* Botão de Dark Mode */
+/* Wrapper do Dark Mode */
 .theme-toggle-wrapper {
     position: absolute;
     top: 20px;
-    right: 15px; /* Ajuste do botão Dark Mode no canto */
+    right: 15px;
 }
 
-.theme-toggle {
-    margin: 0;
-}
-
-/* Botão do menu lateral */
+/* Botão de menu lateral */
 .menu {
     display: none;
     border: none;
@@ -80,22 +78,31 @@ header {
     background-color: var(--offwhite);
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
     transition: right 0.3s ease;
-    padding-right: 5px !important; /* Especificação extra */
+    padding-right: 5px;
     padding: 20px;
     z-index: 1000;
 }
 
+/* Quando o menu estiver aberto */
 .side-menu.open {
     right: 0;
 }
 
+/* Cabeçalho do menu lateral (X e Dark Mode) */
+.side-menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Botão de fechar (X) */
 .close-menu {
-    border: none;
-    background: none;
     font-size: 1.5rem;
     color: var(--cinza2);
     cursor: pointer;
-    margin-bottom: 20px;
+    border: none;
+    background: none;
     transition: color 0.3s ease;
 }
 
@@ -103,6 +110,13 @@ header {
     color: #ff4d4d;
 }
 
+/* Botão de Dark Mode dentro do menu lateral */
+.dark-mode-button {
+    margin-left: auto;
+    transition: transform 0.3s ease;
+}
+
+/* Links do menu lateral */
 .side-menu a {
     display: block;
     margin: 15px 0;
@@ -123,11 +137,11 @@ header {
     }
 
     .theme-toggle-wrapper {
-        display: none; /* Esconde o botão Dark Mode */
+        display: none;
     }
 
     .menu {
-        display: block; /* Mostra o botão de menu */
+        display: block;
     }
 
     .side-menu {
