@@ -25,10 +25,10 @@ header {
 }
 
 .navbar a {
-    margin: 0 15px;
+    margin: 0 60px;
     text-decoration: none;
     color: var(--cinza2);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
