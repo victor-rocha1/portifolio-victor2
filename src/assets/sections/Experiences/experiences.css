@@ -53,7 +53,6 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-    font-size: 1.25rem;
     flex: 1;
     padding: 20px;
     max-width: 800px;
@@ -87,27 +86,6 @@ small, h5 {
     font-weight: bold;
 }
 
-@media (max-width: 768px) {
-    .card-content img {
-        display: none;
-    }
-
-    .text-content {
-        font-size: 1rem;
-        padding: 10px;
-        width: 100%;
-    }
-
-    .text-content small, .text-content h5 {
-        font-size: 0.9rem;
-    }
-
-    .card {
-        margin: 10px;
-        padding: 15px;
-    }
-}
-
 @media (max-width: 900px) {
     .text-content {
         font-size: 1rem;
@@ -128,5 +106,33 @@ small, h5 {
         width: 300px;
         height: auto;
         margin-right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-content img {
+        display: none;
+    }
+
+    .text-content {
+        font-size: 1rem;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .text-content small, .text-content h5 {
+        font-size: 0.9rem;
+    }
+
+    .card {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .text-content ul {
+        list-style-position: outside;
+        padding-left: 0px; 
+        font-size: 0.9rem; 
+        line-height: 1.2; 
     }
 }
