@@ -14,7 +14,10 @@ function Experiences() {
                             <div className="text-content">
                                 <small className='span1'>2024 - <span className='span2'>atual</span></small>
                                 <h5>Estagiário - <span>Prodemge</span></h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea debitis officia porro, amet nobis illo magni, corrupti provident deserunt facilis nam!</p>
+                                <ul>
+                                    <li>Uso de Metodologias Ágeis: Scrum e Kanban</li>
+                                    <li>Manutenção de sistemas de trânsito de Minas Gerais usando o framework Cake PHP</li>
+                                </ul>
                             </div>
                         </div>
 

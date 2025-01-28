@@ -59,6 +59,19 @@
     max-width: 800px;
 }
 
+.text-content ul {
+    list-style-type: disc; 
+    margin-left: 15px; 
+    padding: 0; 
+    font-size: 1.1rem; 
+    line-height: 1.6; 
+    color: var(--whitedarktext);
+}
+
+.text-content ul li {
+    margin-bottom: 3px; 
+}
+
 .text-content span {
     color: var(--azul);
     font-weight: bold;
