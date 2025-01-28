@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import logo from '../../../../public/images/logo.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './navbar.css';
@@ -6,6 +6,16 @@ import DarkMode from '../../components/DarkMode/DarkMode';
 
 function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [darkMode, setDarkMode] = useState(false); // Estado centralizado
+
+  // Atualiza a classe 'dark' no body
+  useEffect(() => {
+    if (darkMode) {
+      document.body.classList.add('dark');
+    } else {
+      document.body.classList.remove('dark');
+    }
+  }, [darkMode]);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -30,7 +40,7 @@ function NavBar() {
         </div>
 
         <div className="theme-toggle-wrapper">
-          <DarkMode />
+          <DarkMode darkMode={darkMode} setDarkMode={setDarkMode} />
         </div>
         <button className="menu" onClick={toggleMenu}></button>
       </nav>
@@ -39,7 +49,7 @@ function NavBar() {
         <div className="side-menu-header">
           <button className="close-menu" onClick={closeMenu}>X</button>
           <div className="dark-mode-button">
-            <DarkMode />
+            <DarkMode darkMode={darkMode} setDarkMode={setDarkMode} />
           </div>
         </div>
         <a href="#">Home</a>
