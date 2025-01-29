@@ -9,3 +9,19 @@
     margin: 0 auto;       
     display: block;            
 }
+
+.mySwiper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: var(--azul);
+}
+
+.swiper-pagination-bullet {
+    background-color: var(--azul);
+}
