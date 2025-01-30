@@ -7,7 +7,7 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-/* Tamanho do card */
+/* Tamanho do Card */
 .img-project {  
     margin-top: 60px;
     width: 400px !important; 
@@ -98,7 +98,7 @@
 
 @media (max-width: 475px) {
     .img-project {
-        width: 320px;  
-        height: 420px; 
+        width: 270px !important;  
+        height: 450px; 
     }
 }

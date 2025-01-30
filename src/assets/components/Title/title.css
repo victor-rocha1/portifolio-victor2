@@ -1,5 +1,5 @@
 .titleh {
-    font-size: 55px;
+    font-size: 45px;
     text-align: center;
 }
 
@@ -9,7 +9,17 @@
 
 .titles {
     color: var(--azul);
-    font-size: 55px;
+    font-size: 45px;
+}
+
+@media (max-width: 750px) {
+    .titleh {
+        font-size: 35px;
+    }
+
+    .titles {
+        font-size: 35px;
+    }
 }
 
 @media (max-width: 600px) {
