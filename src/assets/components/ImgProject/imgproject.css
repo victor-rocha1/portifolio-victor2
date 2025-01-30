@@ -7,11 +7,11 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-
-.img-project {
+/* Tamanho do card */
+.img-project {  
     margin-top: 60px;
-    width: 360px;
-    height: 460px;
+    width: 400px !important; 
+    height: 500px; 
     background-color: var(--azul);
     background-size: cover;
     background-position: 100% 0%;
@@ -89,22 +89,16 @@
     transform: translateX(-50%);
 }
 
-@media (max-width:970px) {
-    .overlay p {
-        font-size: 20px;
-        text-align: center;
+@media (max-width: 970px) {
+    .img-project {
+        width: 450px;  
+        height: 520px; 
     }
 }
 
-@media (max-width:475px) {
-    .overlay {
-        width: 320px;
-        height: 420px;
-    }
-
+@media (max-width: 475px) {
     .img-project {
-        margin-top: 30px;
-        width: 320px;
-        height: 420px;
+        width: 320px;  
+        height: 420px; 
     }
 }

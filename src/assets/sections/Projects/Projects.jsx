@@ -35,12 +35,13 @@ function Projects() {
                     slidesPerView="auto"
                     grabCursor={true}
                     autoplay={{ delay: 3000 }}
+                    initialSlide={Math.floor(projects.length / 2)} // Define o slide inicial no meio
                     coverflowEffect={{
                         rotate: 0,
                         stretch: 0,
-                        depth: 230, // Destaca o slide ativo
-                        modifier: 1, 
-                        slideShadows: false, // Tira as sombras laterais
+                        depth: 300,
+                        modifier: 1.5,
+                        slideShadows: false,
                     }}
                     pagination={{ clickable: true }}
                 >
