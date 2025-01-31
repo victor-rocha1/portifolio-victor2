@@ -108,7 +108,7 @@
 
 @media (max-width: 770px) {
     .box {
-        width: calc(80% - 50px); /* 1 card por linha em telas pequenas */
+        width: calc(97% - 15px); /* 1 card por linha em telas pequenas */
     }
 
     .icons img {
