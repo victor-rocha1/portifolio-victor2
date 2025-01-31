@@ -131,6 +131,14 @@ header {
 
 /* Responsividade */
 @media (max-width: 750px) {
+    .navbar {
+        padding: 0 10px; 
+    }
+
+    .navbar img {
+        margin-left: -55px; /* Alinha perfeitamente ao canto */
+    }
+
     .nav-links {
         display: none;
     }
