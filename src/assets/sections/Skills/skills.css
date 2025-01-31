@@ -85,7 +85,7 @@
     transform: scale(1.2);
 }
 
-/* Responsividade para telas menores */
+/* Responsividade */
 @media (max-width: 970px) {
     .flex {
         flex-direction: column;
@@ -93,7 +93,7 @@
     }
 
     .box {
-        width: 100%; 
+        width: calc(50% - 30px); /* 2 cards por linha em telas médias */
         max-width: none;
     }
 
@@ -107,10 +107,13 @@
 }
 
 @media (max-width: 770px) {
+    .box {
+        width: calc(80% - 50px); /* 1 card por linha em telas pequenas */
+    }
+
     .icons img {
         width: 50px;
         height: 50px;
-        transition: transform 0.2s ease-in-out;
     }
 }
 
@@ -118,7 +121,6 @@
     .icons img {
         width: 40px;
         height: 40px;
-        transition: transform 0.2s ease-in-out;
     }
 
     .box i {
