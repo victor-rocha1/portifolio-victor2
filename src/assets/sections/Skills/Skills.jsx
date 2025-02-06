@@ -14,7 +14,7 @@ import laravel from "../../../../public/images/laravel.png";
 function Skills() {
     return (
         <section className="skills" id="skills">
-            <Title text="MINHAS" spantext="HABILIDADES" />
+            <Title text="Habilidades" spantext="Gerais" />
             <br />
             <div className="interface">
                 <div className="flex">

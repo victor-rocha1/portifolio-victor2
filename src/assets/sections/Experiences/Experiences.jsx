@@ -6,7 +6,7 @@ function Experiences() {
     return (
         <>
             <section className="experiências" id='experiences'>
-                <br /><br /><Title text="MINHA " spantext="EXPERIÊNCIA" /> <br />
+                <br /><br /><Title text="Minha " spantext="Experiência" /> <br />
                 <div className="interface">
                     <div className="timeline">
                         <div className="card-content">

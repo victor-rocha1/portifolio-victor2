@@ -26,7 +26,7 @@ function Projects() {
 
     return (
         <section className="projects" id="projects">
-            <Title text="MEUS " spantext="PROJETOS" />
+            <Title text="Meus " spantext="Projetos" />
             <div className="interface">
                 <Swiper
                     modules={[Navigation, Pagination, Autoplay, EffectCoverflow]}
