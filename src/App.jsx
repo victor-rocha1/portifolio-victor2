@@ -1,4 +1,3 @@
-import './App.css';
 import About from './assets/sections/About/About';
 import Experiences from './assets/sections/Experiences/Experiences';
 import Footer from './assets/sections/Footer/Footer';

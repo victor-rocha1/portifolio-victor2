@@ -15,6 +15,8 @@ function Icons({ icons = [], size = '2rem', alignment = 'flex-end' }) {
           />
         </a>
       ))}
+
+      {/* Ícone fixo do LinkedIn */}
       <a href="https://www.linkedin.com/in/victor-rocha-751376267/" target='_blank' rel="noopener noreferrer">
         <i className="fa-brands fa-linkedin-in icon" style={{ fontSize: size, color: 'var(--blue)' }} />
       </a>

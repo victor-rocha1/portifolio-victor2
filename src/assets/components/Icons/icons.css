@@ -2,61 +2,66 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 30px;
+    gap: 25px; /* Espaçamento entre ícones */
     cursor: pointer;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    padding: 10px;
 }
 
 .icon-social a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 55px; 
-    height: 55px; 
+    width: 55px;
+    height: 55px;
     background-color: var(--offwhite);
     border-radius: 50%;
-    transition: transform 0.2s ease, background-color 0.3s ease; 
+    transition: transform 0.2s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
 
 .icon-social a .icon {
     color: var(--azul);
-    font-size: 2rem; 
+    font-size: 2rem; /* Tamanho padrão */
 }
 
+/* Efeito no hover */
 .icon-social a:hover {
-    transform: scale(1.1); 
-    background-color: var(--lightblue); 
+    transform: scale(1.1);
+    background-color: var(--lightblue);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Responsividade */
 @media (max-width: 768px) {
     .icon-social {
-        gap: 20px; 
-        justify-content: center; 
-    }
-
-    .icon-social a {
-        width: 50px; 
-        height: 50px; 
-    }
-
-    .icon-social a .icon {
-        font-size: 1.8rem; 
-    }
-}
-
-@media (max-width: 530px) {
-    .icon-social {
-        gap: 15px; 
+        gap: 20px;
         justify-content: center;
     }
 
     .icon-social a {
-        width: 53px; 
-        height: 53px; 
+        width: 50px;
+        height: 50px;
     }
 
     .icon-social a .icon {
-        font-size: 1rem; 
+        font-size: 1.8rem;
+    }
+}
+
+/* Diminui o tamanho dos ícones para telas menores que 530px */
+@media (max-width: 530px) {
+    .icon-social {
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .icon-social a {
+        width: 35px;  /* Reduzi o tamanho dos círculos */
+        height: 35px;
+    }
+
+    .icon-social a .icon {
+        font-size: 1.3rem !important; /* Diminui os ícones */
     }
 }

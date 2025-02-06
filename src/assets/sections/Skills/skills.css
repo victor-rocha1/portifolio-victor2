@@ -131,4 +131,8 @@
     .box h2 {
         font-size: 1.3rem;
     }
+
+    .box p span{
+        font-size: 1.1rem
+    }
 }
