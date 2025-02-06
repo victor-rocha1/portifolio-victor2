@@ -20,7 +20,7 @@ function Skills() {
                 <div className="flex">
                     <div className="box">
                         <i className="bi bi-laptop"></i>
-                        <h2>FRONT END</h2>
+                        <h2>Front End</h2>
                         <p>
                             Desenvolvo aplicações usando <span>JavaScript</span> como base, <span>HTML5</span> e <span>CSS3</span> para marcação, e a Biblioteca <span>React </span> para uma programação mais organizada e eficiente..
                         </p>
@@ -28,17 +28,17 @@ function Skills() {
 
                     <div className="box">
                         <i className="bi bi-code-square"></i>
-                        <h2>BACK END</h2>
+                        <h2>Back End</h2>
                         <p>
-                            Possuo experiência acadêmica em <span>Python</span>, com foco na resolução de exercícios e problemas básicos. Além disso, tenho experiência profissional com <span>PHP</span>, utilizando o framework <span>Laravel</span> em projetos na <span>Prodemge</span>.
+                            Tenho experiência acadêmica com <span>Python</span> e banco de dados <span>PostgreSQL</span>. No âmbito profissional, trabalhei com <span>PHP</span>, utilizando o framework <span>CakePHP</span> em projetos na <span>Prodemge</span>.
                         </p>
                     </div>
 
                     <div className="box">
-                        <i className="bi bi-database"></i>
-                        <h2>DADOS</h2>
+                        <i className="bi bi-clipboard-data"></i>
+                        <h2>Metodologias Ágeis</h2>
                         <p>
-                            Conhecimentos na <span>Linguagem SQL</span> e <span>Banco de Dados Relacional</span> usando o Software <span>PostgreSQL</span>, usando comandos simples para consultas em Tabelas Relacionais.
+                            Tenho conhecimento nas metodologias <span>Scrum</span> e <span>Kanban</span>, aplicando conceitos como <span>Análise de Requisitos</span>, <span>Histórias de Usuário</span> e o uso do <span>GitLab</span> para gestão e versionamento de código.
                         </p>
                     </div>
                 </div>
