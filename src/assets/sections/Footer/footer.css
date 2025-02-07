@@ -29,7 +29,7 @@ footer {
 .footer-line {
     height: 2px;
     background-color: var(--azul);
-    margin: 10px 5px;
+    margin: 0px 0px;
 }
 
 p i {
@@ -53,6 +53,6 @@ p i {
     }
 
     p i {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 }
