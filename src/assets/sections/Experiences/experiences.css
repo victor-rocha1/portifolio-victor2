@@ -93,7 +93,7 @@ small, h5 {
         width: 100%;
     }
 
-    .text-content small, .text-content h5 {
+    .text-content small, .text-content h5 span {
         font-size: 0.9rem;
     }
 
