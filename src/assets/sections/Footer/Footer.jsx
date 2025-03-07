@@ -4,7 +4,7 @@ import './footer.css';
 
 function Footer() {
     const socialIcons = [
-        { name: 'instagram', link: 'https://www.instagram.com/victor-rocha924' },
+        { name: 'instagram', link: 'https://www.instagram.com/victor.rocha77/' },
         { name: 'github', link: 'https://www.github.com/victor-rocha1' },
     ];
     const contactIcon = { name: 'envelope-fill', link: 'mailto:victorrocha3202@gmail.com' };

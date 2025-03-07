@@ -5,7 +5,7 @@ import Icons from '../../components/Icons/Icons';
 
 function About() {
     const socialIcons = [
-        { name: 'instagram', link: 'https://www.instagram.com/victor_rocha924/?next=%2F' },
+        { name: 'instagram', link: 'https://www.instagram.com/victor.rocha77/' },
         { name: 'github', link: 'https://www.github.com/victor-rocha1' },
     ];
 
