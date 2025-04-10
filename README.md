@@ -13,9 +13,21 @@ O portfólio está dividido nas seguintes seções:
 - Footer: Informações de contato e links úteis.
 
 ## 🚀 Tecnologias Utilizadas
-- React: Biblioteca JavaScript para construção da interface.
-- Bootstrap Icons: Biblioteca de ícones para enriquecer o design.
-- GitHub Pages: Serviço de hospedagem para tornar o portfólio acessível online.
+
+- **React**: Biblioteca JavaScript para construção da interface.  
+- **Bootstrap Icons**: Biblioteca de ícones para enriquecer o design.  
+- **GitHub Pages**: Serviço de hospedagem para tornar o portfólio acessível online.  
+
+<br>
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="40" height="40"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" width="40" height="40"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Pages" width="40" height="40"/>
+</p>
+
 
 ## 🌐 Acesse o Portfólio
 [Victor Rocha](https://victor-rocha1.github.io/portifolio-victor2/)
