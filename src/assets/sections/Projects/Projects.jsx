@@ -13,6 +13,7 @@ import imgValidador from "./images/validador.png";
 import imgCalculadoraPy from "./images/calculadorapy.png";
 import imgOneBitFlix from "./images/onebitflix.png";
 import imgJogodeDamas from "./images/jogo-de-dama.png";
+import imgCadastro from "./images/cadastro-laravel.png"
 import './projects.css';
 
 function Projects() {
@@ -20,6 +21,7 @@ function Projects() {
         { img: imgSpace, text: "VRSpaceX", github: "https://github.com/victor-rocha1/SpaceX-Bootstrap" },
         { img: imgJogodeDamas, text: "Jogo de Damas - Projeto Acadêmico", github: "https://github.com/victor-rocha1/jogo-de-damas" },
         { img: imgOneBitFlix, text: "OneBitFlix", github: "https://github.com/victor-rocha1/onebitflix" },
+        { img: imgCadastro, text: "Cadastro Laravel", github: "https://github.com/victor-rocha1/cadastro_laravel" },
         { img: imgValidador, text: "Validador de Email e Senha", github: "https://github.com/victor-rocha1/Validador-de-Email-e-Senha" },
         { img: imgCalculadoraPy, text: "Calculadora Python", github: "https://github.com/victor-rocha1/Calculadora-Python" },
     ];
