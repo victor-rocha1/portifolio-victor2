@@ -58,7 +58,7 @@ function Skills() {
                         <p>
                             Tenho conhecimento nas metodologias <span>Scrum</span> e <span>Kanban</span>, 
                             aplicando conceitos como <span>Análise de Requisitos</span>, 
-                            <span>Histórias de Usuário</span> e o uso do <span>GitLab</span> 
+                            <span>Histórias de Usuário</span> e o uso do <span>GitLab </span> 
                             para gestão e versionamento de código.
                         </p>
                     </div>
