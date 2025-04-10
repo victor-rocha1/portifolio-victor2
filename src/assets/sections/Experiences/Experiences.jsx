@@ -16,7 +16,10 @@ function Experiences() {
                                 <h5>Estagiário - <span>Prodemge</span></h5>
                                 <ul>
                                     <li>Uso de Metodologias Ágeis: Scrum e Kanban</li>
-                                    <li>Manutenção de sistemas de trânsito de Minas Gerais usando o framework Cake PHP</li>
+                                    <li>Escrita de Histórias de usuário e organização estruturada no Git – utilizadas como documentação viva dos projetos.
+                                    </li>
+                                    <li>Atendimento a cards com foco na resolução de problemas e falhas no sistema SDDT.
+                                    </li>
                                 </ul>
                             </div>
                         </div>
