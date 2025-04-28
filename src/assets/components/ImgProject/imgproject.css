@@ -52,6 +52,8 @@
     height: 100%;
     border-radius: 40px;
     display: flex;
+    flex-direction: column; 
+    gap: -10px;
     align-items: center;
     justify-content: center;
     font-size: 24px;
@@ -64,7 +66,6 @@
 .overlay p {
     color: var(--whitedark);
     text-align: center;
-    padding-bottom: 20px;
 }
 
 .overlay:hover {
@@ -81,7 +82,6 @@
 .overlay button i {
     font-size: 40px;
     color: white;
-    padding: 10px 20px;
     border: none;
     cursor: pointer;
     position: absolute;
@@ -103,6 +103,7 @@
     }
 
     .overlay p {
-        font-size: 1rem;
+        font-size: 1.1rem;
+        text-align: center !important;
     }
 }
