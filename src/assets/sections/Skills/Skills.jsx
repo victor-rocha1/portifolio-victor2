@@ -37,8 +37,8 @@ function Skills() {
                         <h2>Front End</h2>
                         <p>
                             Desenvolvo aplicações usando <span>JavaScript</span> como base, 
-                            <span>HTML5</span> e <span>CSS3</span> para marcação, e a Biblioteca 
-                            <span>React</span> para uma programação mais organizada e eficiente.
+                            <span>HTML5</span> e <span>CSS3</span> para marcação, e a Biblioteca  
+                            <span> React</span> para uma programação mais organizada e eficiente.
                         </p>
                     </div>
 
@@ -47,7 +47,7 @@ function Skills() {
                         <h2>Back End</h2>
                         <p>
                             Tenho experiência acadêmica com <span>Python</span> e banco de dados 
-                            <span>PostgreSQL</span>. No âmbito profissional, trabalhei com <span>PHP</span>, 
+                            <span> PostgreSQL</span>. No âmbito profissional, trabalhei com <span>PHP</span>, 
                             utilizando o framework <span>CakePHP</span> em projetos na <span>Prodemge</span>.
                         </p>
                     </div>
