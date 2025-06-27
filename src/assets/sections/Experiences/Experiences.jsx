@@ -18,7 +18,7 @@ function Experiences() {
                                     <li>Uso de Metodologias Ágeis: Scrum e Kanban</li>
                                     <li>Escrita de Histórias de usuário e organização estruturada no Git – utilizadas como documentação viva dos projetos.
                                     </li>
-                                    <li>Atendimento a cards com foco na resolução de problemas e falhas no sistema SDDT.
+                                    <li>Documentação técnica completa do Sistema de Gestão de Correspondências, aplicando diagramas como ER e Fluxograma.
                                     </li>
                                 </ul>
                             </div>
