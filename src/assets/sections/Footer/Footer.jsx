@@ -13,7 +13,9 @@ function Footer() {
         <footer id='footer'>
             <div className="footer-container">
                 <div className="logo-footer">
-                    <img id='logotipo' src={logo} alt="Logo Victor Rocha" />
+                    <a href="#">
+                        <img id='logotipo' src={logo} alt="Logotipo Victor Rocha" />
+                    </a>
                 </div>
                 <div className="social-icons">
                     <Icons
