@@ -20,10 +20,10 @@ function About() {
                         <Title text='Victor' spantext='Rocha' />
                         <p className="desc">Apaixonado por codificação</p>
                         <ul className='description-list'>
-                            <li>Desenvolvedor Front End</li>
-                            <li>Estudante do 4° período de Análise e Desenvolvimento de Sistemas</li>
-                            <li>Estudante de diversos cursos de tecnologia</li>
-                            <li>Estagiário na Prodemge</li>
+                            <li>Desenvolvedor Front End<span>.</span></li>
+                            <li>Estudante do 5° período de Análise e Desenvolvimento de Sistemas<span>.</span></li>
+                            <li>Estudante de diversos cursos na área de tecnologia, focados em Programação<span>.</span></li>
+                            <li>Estagiário na Prodemge<span>.</span></li>
                         </ul>
                         <br />
                         <br />
