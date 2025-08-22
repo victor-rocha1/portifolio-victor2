@@ -37,7 +37,7 @@ function Skills() {
                         <h2>Front End</h2>
                         <p>
                             Desenvolvo aplicações usando <span>JavaScript</span> como base, 
-                            <span>HTML5</span> e <span>CSS3</span> para marcação, e a Biblioteca  
+                            <span> HTML5</span> e <span>CSS3</span> para marcação, e a Biblioteca  
                             <span> React</span> para uma programação mais organizada e eficiente.
                         </p>
                     </div>
@@ -58,7 +58,7 @@ function Skills() {
                         <p>
                             Tenho conhecimento nas metodologias <span>Scrum</span> e <span>Kanban</span>, 
                             aplicando conceitos como <span>Análise de Requisitos</span>, 
-                            <span>Histórias de Usuário</span> e o uso do <span>GitLab </span> 
+                            <span> Histórias de Usuário</span> e o uso do <span>GitLab </span> 
                             para gestão e versionamento de código.
                         </p>
                     </div>
