@@ -1,21 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react'; 
 import logo from '../../../../public/images/logo.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './navbar.css';
 import DarkMode from '../../components/DarkMode/DarkMode';
 
-function NavBar() {
+// =Recebe 'darkMode' e 'setDarkMode' como ordens (props)
+function NavBar({ darkMode, setDarkMode }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [darkMode, setDarkMode] = useState(false); // Estado centralizado
-
-  // Atualiza a classe 'dark' no body
-  useEffect(() => {
-    if (darkMode) {
-      document.body.classList.add('dark');
-    } else {
-      document.body.classList.remove('dark');
-    }
-  }, [darkMode]);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -31,20 +22,18 @@ function NavBar() {
         <a href="#">
           <img src={logo} alt="logo" />
         </a>
-
         <div className="nav-links">
           <a href="#about">Sobre Mim</a>
           <a href="#skills">Skills</a>
           <a href="#projects">Projetos</a>
           <a href="#experiences">Experiências</a>
         </div>
-
         <div className="theme-toggle-wrapper">
+          {/* 2. O componente DarkMode usa as props que vieram do App.js */}
           <DarkMode darkMode={darkMode} setDarkMode={setDarkMode} />
         </div>
         <button className="menu" onClick={toggleMenu}></button>
       </nav>
-
       <div className={`side-menu ${isMenuOpen ? 'open' : ''}`}>
         <div className="side-menu-header">
           <button className="close-menu" onClick={closeMenu}>X</button>
