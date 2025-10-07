@@ -29,7 +29,7 @@ function Footer() {
             <div className="contact-info">
                 <p>
                     <i className="bi bi-envelope-fill"></i>
-                    <a href="mailto:victorrocha3202@gmail.com">victorrocha3202@gmail.com</a>
+                    <a href="mailto:victor.rocha3203@gmail.com">victor.rocha3203@gmail.com</a>
                 </p>
             </div>
         </footer>

@@ -5,6 +5,7 @@ import github from "../../../../public/images/github.png";
 import js from "../../../../public/images/js.png";
 import html from "../../../../public/images/html.png";
 import css from "../../../../public/images/css.png";
+import react from "../../../../public/images/react.png";
 import python from "../../../../public/images/python.png";
 import postgres from "../../../../public/images/postgres.png";
 import sql from "../../../../public/images/sql.png";
@@ -17,6 +18,7 @@ const techs = [
     { src: js, alt: "JavaScript" },
     { src: html, alt: "HTML5" },
     { src: css, alt: "CSS3" },
+    { src: react, alt: "React" },
     { src: python, alt: "Python" },
     { src: postgres, alt: "PostgreSQL" },
     { src: sql, alt: "SQL" },
