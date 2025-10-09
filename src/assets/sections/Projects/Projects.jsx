@@ -14,7 +14,7 @@ import imgCalculadoraPy from "./images/calculadorapy.png";
 import imgOneBitFlix from "./images/onebitflix.png";
 import imgJogodeDamas from "./images/jogo-de-dama.png";
 import imgCadastro from "./images/cadastro-laravel.png";
-import imgLinkHub from "./images/linkhub.jpg";
+import imgLinkHub from "./images/linkhub.png";
 import imgFeetCare from "./images/feetcare.png";
 import './projects.css';
 
