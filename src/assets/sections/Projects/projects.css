@@ -40,7 +40,7 @@
 }
 
 .swiper-pagination-bullet {
-    background-color: white;
+    background-color: var(--azul);
     opacity: 0.7;
     transition: opacity 0.3s;
 }
@@ -48,6 +48,23 @@
 .swiper-pagination-bullet-active {
     opacity: 1;
     background-color: var(--blue);
+}
+
+/* Swiper navigation arrows: ocultar por padrão, mostrar no hover */
+.swiper-button-next,
+.swiper-button-prev {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+    z-index: 10;
+    cursor: pointer;
+}
+
+
+.interface:hover .swiper-button-next,
+.interface:hover .swiper-button-prev {
+    opacity: 1;
+    pointer-events: auto;
 }
 
 /* Responsividade */

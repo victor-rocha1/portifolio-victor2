@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay, EffectCoverflow } from 'swiper/modules';
 import 'swiper/css';
@@ -19,6 +19,25 @@ import imgFeetCare from "./images/feetcare.png";
 import './projects.css';
 
 function Projects() {
+    const [showSwiper, setShowSwiper] = useState(false);
+    const sectionRef = useRef(null);
+
+    useEffect(() => {
+        const observer = new window.IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    setShowSwiper(true);
+                    observer.disconnect();
+                }
+            },
+            { threshold: 0.3 }
+        );
+        if (sectionRef.current) {
+            observer.observe(sectionRef.current);
+        }
+        return () => observer.disconnect();
+    }, []);
+
     const projects = [
         { img: imgSpace, text: "VRSpaceX", github: "https://github.com/victor-rocha1/SpaceX-Bootstrap" },
         { img: imgJogodeDamas, text: "Jogo de Damas - Projeto Acadêmico", github: "https://github.com/victor-rocha1/jogo-de-damas" },
@@ -31,37 +50,40 @@ function Projects() {
     ];
 
     return (
-        <section className="projects" id="projects">
+        <section className="projects" id="projects" ref={sectionRef}>
             <Title text="Meus " spantext="Projetos" />
             <div className="interface">
-                <Swiper
-                    modules={[Navigation, Pagination, Autoplay, EffectCoverflow]}
-                    effect="coverflow"
-                    centeredSlides={true}
-                    slidesPerView="auto"
-                    grabCursor={true}
-                    autoplay={{ delay: 3000 }}
-                    initialSlide={Math.floor(projects.length / 2)} // Define o slide inicial no meio
-                    coverflowEffect={{
-                        rotate: 0,
-                        stretch: 0,
-                        depth: 300,
-                        modifier: 1.5,
-                        slideShadows: false,
-                    }}
-                    pagination={{ clickable: true }}
-                >
-                    {projects.map((project, index) => (
-                        <SwiperSlide key={index} className="project-slide">
-                            <ImgProject
-                                img={project.img}
-                                text={project.text}
-                                github={project.github}
-                                button={true}
-                            />
-                        </SwiperSlide>
-                    ))}
-                </Swiper>
+                {showSwiper && (
+                    <Swiper
+                        modules={[Navigation, Pagination, Autoplay, EffectCoverflow]}
+                        effect="coverflow"
+                        centeredSlides={true}
+                        slidesPerView="auto"
+                        grabCursor={true}
+                        autoplay={{ delay: 4000 }}
+                        initialSlide={Math.floor(projects.length / 2)}
+                        coverflowEffect={{
+                            rotate: 0,
+                            stretch: 0,
+                            depth: 300,
+                            modifier: 1.5,
+                            slideShadows: false,
+                        }}
+                        pagination={{ clickable: true }}
+                        navigation={{ enabled: true }}
+                    >
+                        {projects.map((project, index) => (
+                            <SwiperSlide key={index} className="project-slide">
+                                <ImgProject
+                                    img={project.img}
+                                    text={project.text}
+                                    github={project.github}
+                                    button={true}
+                                />
+                            </SwiperSlide>
+                        ))}
+                    </Swiper>
+                )}
             </div>
         </section>
     );
