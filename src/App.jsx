@@ -5,10 +5,9 @@ import Projects from './assets/sections/Projects/Projects';
 import Experiences from './assets/sections/Experiences/Experiences';
 import Footer from './assets/sections/Footer/Footer';
 import Skills from './assets/sections/Skills/Skills';
-
+import ButtonTop from './assets/components/buttonTop/buttonTop'; 
 
 function App() {
-  // O estado do dark mode vive aqui. Ele é o chefe.
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
@@ -27,6 +26,7 @@ function App() {
       <Projects darkMode={darkMode} />
       <Experiences darkMode={darkMode} /> 
       <Footer darkMode={darkMode} />
+      <ButtonTop /> {/* 2. Adicione o componente aqui */}
     </div>
   );
 }
