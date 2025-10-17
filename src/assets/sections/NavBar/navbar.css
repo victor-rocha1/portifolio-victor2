@@ -2,6 +2,12 @@ header {
     background-color: var(--white);
     padding: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 2000;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
 }
 
 /* Navegação superior */
@@ -9,12 +15,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0;
+    padding: 0 25px; /* Define um espaçamento lateral igual */
+    position: relative;   /* Necessário para conter elementos filhos */
+    max-width: 1400px; /* Limita a largura máxima */
+    margin: 0 auto;       /* Centraliza o conteúdo */
 }
 
 .navbar img {
     width: 70px;
-    margin-left: -10px;
+    margin-left: 0; /* Remove a margem negativa */
 }
 
 .nav-links {
@@ -44,9 +53,7 @@ header {
 
  /* Dark Mode  */
 .theme-toggle-wrapper {
-    position: absolute;
-    top: 20px;
-    right: 15px;
+    /* O posicionamento absoluto foi removido para que ele se alinhe com o flexbox */
 }
 
 /* Botão de menu lateral */
@@ -136,11 +143,12 @@ header {
 /* Responsividade */
 @media (max-width: 750px) {
     .navbar {
-        padding: 0 10px; 
+        padding: 0 20px; 
     }
 
     .navbar img {
-        margin-left: -55px; /* Alinha perfeitamente ao canto */
+        margin-left: 0; /* Alinha perfeitamente ao canto */
+        width: 60px;
     }
 
     .nav-links {
