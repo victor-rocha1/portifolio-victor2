@@ -1,6 +1,6 @@
 header {
     background-color: var(--white);
-    padding: 20px;
+    padding: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -23,6 +23,10 @@ header {
     flex-grow: 1;
     justify-content: center;
     margin: 0 20px;
+}
+
+.nav-links a{
+    font-size: 1.2rem !important;
 }
 
 .navbar a {
