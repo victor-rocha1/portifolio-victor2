@@ -1,6 +1,6 @@
 header {
     background-color: var(--white);
-    padding: 10px;
+    padding: 1px 0; /* Menor altura */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
@@ -15,14 +15,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 25px; /* Define um espaçamento lateral igual */
+    padding-left: 32px;
+    padding-right: 32px;
     position: relative;   /* Necessário para conter elementos filhos */
     max-width: 1400px; /* Limita a largura máxima */
     margin: 0 auto;       /* Centraliza o conteúdo */
 }
 
 .navbar img {
-    width: 70px;
+    width: 55px;
     margin-left: 0; /* Remove a margem negativa */
 }
 
@@ -46,6 +47,17 @@ header {
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
+.navbar a:first-child {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+}
+
+.theme-toggle-wrapper {
+    margin-right: 0;
+    padding-right: 0;
+}
+
 .navbar a:hover {
     color: var(--azul);
     transform: scale(1.1);
@@ -54,6 +66,7 @@ header {
  /* Dark Mode  */
 .theme-toggle-wrapper {
     /* O posicionamento absoluto foi removido para que ele se alinhe com o flexbox */
+    margin-right: 0;
 }
 
 /* Botão de menu lateral */
@@ -143,12 +156,13 @@ header {
 /* Responsividade */
 @media (max-width: 750px) {
     .navbar {
-        padding: 0 20px; 
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .navbar img {
         margin-left: 0; /* Alinha perfeitamente ao canto */
-        width: 60px;
+        width: 55px;
     }
 
     .nav-links {
