@@ -26,9 +26,8 @@ function About({ darkMode }) {
           </div>
           <div className="about-content">
             <Title text='Victor' spantext='Rocha' />
-            <p className="desc">Apaixonado por codificação</p>
+            <p className="desc">Desenvolvedor</p>
             <ul className='description-list'>
-              <li>Desenvolvedor Front End<span>.</span></li>
               <li>Estudante do 6° período de Análise e Desenvolvimento de Sistemas<span>.</span></li>
               <li>Estudante de diversos cursos na área de tecnologia, focados em Programação<span>.</span></li>
               <li>Estagiário na Prodemge<span>.</span></li>
