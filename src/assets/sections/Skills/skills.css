@@ -124,6 +124,10 @@
         height: 40px;
     }
 
+    .box p{
+        font-size: 1.1rem;
+    }
+
     .box i {
         font-size: 2rem;
     }

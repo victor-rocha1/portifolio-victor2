@@ -156,8 +156,8 @@ header {
 /* Responsividade */
 @media (max-width: 750px) {
     .navbar {
-        padding-left: 16px;
-        padding-right: 16px;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     .navbar img {
